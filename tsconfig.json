@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "src/*": [
+                "./src/*"
+            ]
+        },
+        "target": "ES5",
+        "module": "ESNext",
+        "allowJs": false,
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+        "noEmit": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src",
+        "test"
+    ]
+}
